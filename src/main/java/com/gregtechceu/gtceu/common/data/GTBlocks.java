@@ -671,8 +671,8 @@ public class GTBlocks {
     public static final BlockEntry<Block> BRONZE_HULL = createSteamCasing("bronze_machine_casing", "bronze");
     public static final BlockEntry<Block> BRONZE_BRICKS_HULL = createSteamCasing("bronze_brick_casing",
             "bricked_bronze");
-    public static final BlockEntry<Block> STEEL_HULL = createSteamCasing("steel_machine_casing", "steel");
-    public static final BlockEntry<Block> STEEL_BRICKS_HULL = createSteamCasing("steel_brick_casing", "bricked_steel");
+    public static final BlockEntry<Block> WROUGHT_IRON_HULL = createSteamCasing("wrought_iron_machine_casing", "wrought_iron");
+    public static final BlockEntry<Block> WROUGHT_IRON_BRICKS_HULL = createSteamCasing("Wrought_Iron_brick_casing", "bricked_wrought_iron");
 
     // Heating Coils
     public static final BlockEntry<CoilBlock> COIL_CUPRONICKEL = createCoilBlock(CoilBlock.CoilType.CUPRONICKEL);

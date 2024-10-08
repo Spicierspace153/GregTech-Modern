@@ -60,10 +60,10 @@ public class RecipeAddition {
                     new UnificationEntry(TagPrefix.pipeNormalFluid, GTMaterials.Steel), 'T',
                     GTMachines.STEEL_DRUM.asStack());
             VanillaRecipeHelper.addShapedRecipe(provider, true, "steam_input_bus",
-                    GTMachines.STEAM_IMPORT_BUS.asStack(), "C", "H", 'H', GTBlocks.STEEL_HULL.asStack(), 'C',
+                    GTMachines.STEAM_IMPORT_BUS.asStack(), "C", "H", 'H', GTBlocks.WROUGHT_IRON_HULL.asStack(), 'C',
                     Tags.Items.CHESTS_WOODEN);
             VanillaRecipeHelper.addShapedRecipe(provider, true, "steam_output_bus",
-                    GTMachines.STEAM_EXPORT_BUS.asStack(), "H", "C", 'H', GTBlocks.STEEL_HULL.asStack(), 'C',
+                    GTMachines.STEAM_EXPORT_BUS.asStack(), "H", "C", 'H', GTBlocks.WROUGHT_IRON_HULL.asStack(), 'C',
                     Tags.Items.CHESTS_WOODEN);
         } else {
             VanillaRecipeHelper.addShapedRecipe(provider, true, "steam_oven", GTMachines.STEAM_OVEN.asStack(), "CGC",

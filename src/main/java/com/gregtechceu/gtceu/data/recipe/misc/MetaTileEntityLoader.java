@@ -430,9 +430,9 @@ public class MetaTileEntityLoader {
         VanillaRecipeHelper.addShapedRecipe(provider, true, "bronze_bricks_hull", GTBlocks.BRONZE_BRICKS_HULL.asStack(),
                 "PPP", "PhP", "BBB", 'P', new UnificationEntry(TagPrefix.plate, GTMaterials.Bronze), 'B',
                 new ItemStack(Blocks.BRICKS));
-        VanillaRecipeHelper.addShapedRecipe(provider, true, "steel_hull", GTBlocks.STEEL_HULL.asStack(), "PPP", "PhP",
+        VanillaRecipeHelper.addShapedRecipe(provider, true, "steel_hull", GTBlocks.WROUGHT_IRON_HULL.asStack(), "PPP", "PhP",
                 "PPP", 'P', new UnificationEntry(TagPrefix.plate, GTMaterials.Steel));
-        VanillaRecipeHelper.addShapedRecipe(provider, true, "steel_bricks_hull", GTBlocks.STEEL_BRICKS_HULL.asStack(),
+        VanillaRecipeHelper.addShapedRecipe(provider, true, "steel_bricks_hull", GTBlocks.WROUGHT_IRON_BRICKS_HULL.asStack(),
                 "PPP", "PhP", "BBB", 'P', new UnificationEntry(TagPrefix.plate, GTMaterials.WroughtIron), 'B',
                 new ItemStack(Blocks.BRICKS));
 
@@ -448,7 +448,7 @@ public class MetaTileEntityLoader {
                 'G', new ItemStack(Blocks.GLASS, 1));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "steam_boiler_lava_steel",
                 GTMachines.STEAM_LIQUID_BOILER.right().asStack(), "PPP", "PGP", "PMP", 'M',
-                GTBlocks.STEEL_BRICKS_HULL.asStack(), 'P', new UnificationEntry(TagPrefix.plate, GTMaterials.Steel),
+                GTBlocks.WROUGHT_IRON_BRICKS_HULL.asStack(), 'P', new UnificationEntry(TagPrefix.plate, GTMaterials.Steel),
                 'G', new ItemStack(Blocks.GLASS, 1));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "steam_boiler_solar_bronze",
                 GTMachines.STEAM_SOLAR_BOILER.left().asStack(), "GGG", "SSS", "PMP", 'M',
@@ -457,7 +457,7 @@ public class MetaTileEntityLoader {
                 new UnificationEntry(TagPrefix.plate, GTMaterials.Silver), 'G', new ItemStack(Blocks.GLASS));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "steam_boiler_solar_steel",
                 GTMachines.STEAM_SOLAR_BOILER.right().asStack(), "GGG", "SSS", "PMP", 'M',
-                GTBlocks.STEEL_BRICKS_HULL.asStack(), 'P',
+                GTBlocks.WROUGHT_IRON_BRICKS_HULL.asStack(), 'P',
                 new UnificationEntry(TagPrefix.pipeSmallFluid, GTMaterials.Steel), 'S',
                 new UnificationEntry(TagPrefix.plateDouble, GTMaterials.Silver), 'G', new ItemStack(Blocks.GLASS));
 
