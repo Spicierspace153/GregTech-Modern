@@ -74,6 +74,12 @@ public class RecipeRemoval {
         // removed these for parity with the other torch recipes
         registry.accept(new ResourceLocation("minecraft:soul_torch"));
         registry.accept(new ResourceLocation("minecraft:soul_lantern"));
+
+        //removed these to add in GT style recipes
+        registry.accept(new ResourceLocation("minecraft:white_dye"));
+        registry.accept(new ResourceLocation("minecraft:black_dye"));
+        registry.accept(new ResourceLocation("black_dye_from_wither_rose"));
+        registry.accept(new ResourceLocation("blue_dye"));
     }
 
     private static void disableManualCompression(Consumer<ResourceLocation> registry) {
