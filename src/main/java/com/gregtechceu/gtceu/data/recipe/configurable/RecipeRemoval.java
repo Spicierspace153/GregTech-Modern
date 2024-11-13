@@ -75,7 +75,7 @@ public class RecipeRemoval {
         registry.accept(new ResourceLocation("minecraft:soul_torch"));
         registry.accept(new ResourceLocation("minecraft:soul_lantern"));
 
-        //removed these to add in GT style recipes
+        // removed these to add in GT style recipes
         registry.accept(new ResourceLocation("minecraft:white_dye"));
         registry.accept(new ResourceLocation("minecraft:black_dye"));
         registry.accept(new ResourceLocation("black_dye_from_wither_rose"));
