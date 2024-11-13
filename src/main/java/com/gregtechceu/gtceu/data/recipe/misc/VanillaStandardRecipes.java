@@ -1356,7 +1356,18 @@ public class VanillaStandardRecipes {
                 .inputItems(new ItemStack(Items.PITCHER_PLANT))
                 .outputItems(new ItemStack(Items.CYAN_DYE, 3))
                 .save(provider);
-
+        EXTRACTOR_RECIPES.recipeBuilder("white_dye")
+                .inputItems(new ItemStack(Items.BONE_MEAL))
+                .outputItems(new ItemStack(Items.WHITE_DYE, 1))
+                .save(provider);
+        EXTRACTOR_RECIPES.recipeBuilder("lapis_dye")
+                        .inputItems(new ItemStack(Items.LAPIS_LAZULI))
+                                .outputItems(new ItemStack(Items.BLUE_DYE))
+                                        .save(provider);
+        EXTRACTOR_RECIPES.recipeBuilder("ink_dye")
+                        .inputItems(new ItemStack(Items.INK_SAC))
+                                .outputItems(new ItemStack(Items.BLACK_DYE))
+                                        .save(provider);
         EXTRACTOR_RECIPES.recipeBuilder("pink_petals_dye")
                 .inputItems(new ItemStack(Items.PINK_PETALS))
                 .outputItems(new ItemStack(Items.PINK_DYE, 2))
