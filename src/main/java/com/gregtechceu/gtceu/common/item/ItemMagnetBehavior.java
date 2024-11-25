@@ -3,11 +3,14 @@ package com.gregtechceu.gtceu.common.item;
 import com.gregtechceu.gtceu.api.GTValues;
 import com.gregtechceu.gtceu.api.capability.GTCapabilityHelper;
 import com.gregtechceu.gtceu.api.capability.IElectricItem;
+import com.gregtechceu.gtceu.api.gui.GuiTextures;
 import com.gregtechceu.gtceu.api.item.IComponentItem;
 import com.gregtechceu.gtceu.api.item.component.IAddInformation;
 import com.gregtechceu.gtceu.api.item.component.IInteractionItem;
 import com.gregtechceu.gtceu.api.item.component.IItemLifeCycle;
 
+import com.lowdragmc.lowdraglib.gui.factory.HeldItemUIFactory;
+import com.lowdragmc.lowdraglib.gui.modular.ModularUI;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
@@ -45,6 +48,16 @@ public class ItemMagnetBehavior implements IInteractionItem, IItemLifeCycle, IAd
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+    ModularUI createUI(Player entityPlayer, HeldItemUIFactory.HeldItemHolder holder)
+    {
+        return new ModularUI(120,80,holder,entityPlayer).background(GuiTextures.BACKGROUND)
+                .widget(new )
+
+
+
+
+
+    }
     @Override
     public InteractionResultHolder<ItemStack> use(Item item, Level world, @NotNull Player player,
                                                   InteractionHand hand) {
